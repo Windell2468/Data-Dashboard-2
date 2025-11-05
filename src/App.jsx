@@ -89,7 +89,7 @@ function App() {
   return (
     <div className="app">
       <div className="main">
-        <h1>Disney Characters Data Dashboard</h1> 
+        <h1>Disney Characters Data Dashboard 2</h1> 
 
         {isLoading ? (
           <p>Loading characters...</p> //It shows a loading message while it fetches a disney character
