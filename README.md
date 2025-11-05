@@ -1,8 +1,8 @@
-# Web Development Project 5 - *Disney Characters Data Dashboard*
+# Web Development Project 6 - *Disney Characters Data Dashboard 2*
 
 Submitted by: **Jerry Rogers Jr.**
 
-This web app: **is a data dashboard for Disney characters that uses the Disney API. It allows users to search for Disney characters in films.**
+This web app: **is second version of data dashboard for Disney characters that uses the Disney API. It allows users to search for Disney characters in films.  Adding features with Bar Chart and Pie Chart while users can see the results of disney films.**
 
 Time spent: **8** hours spent in total
 
@@ -10,28 +10,26 @@ Time spent: **8** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ x] **The site has a dashboard displaying a list of data fetched using an API call**
-  - The dashboard should display at least 10 unique items, one per row
-  - The dashboard includes at least two features in each row
-- [ x] **`useEffect` React hook and `async`/`await` are used**
-- [ x] **The app dashboard includes at least three summary statistics about the data** 
-  - The app dashboard includes at least three summary statistics about the data, such as:
-    - *insert details here*
-- [ x] **A search bar allows the user to search for an item in the fetched data**
-  - The search bar **correctly** filters items in the list, only displaying items matching the search query
-  - The list of results dynamically updates as the user types into the search bar
-- [x ] **An additional filter allows the user to restrict displayed items by specified categories**
-  - The filter restricts items in the list using a **different attribute** than the search bar 
-  - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
-  - The dashboard list dynamically updates as the user adjusts the filter
+- [ x] **Clicking on an item in the list view displays more details about it**
+  - Clicking on an item in the dashboard list navigates to a detail view for that item
+  - Detail view includes extra information about the item not included in the dashboard view
+  - The same sidebar is displayed in detail view as in dashboard view
+  - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
+- [x ] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+  -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
+- [ x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+  - At least two charts should be incorporated into the dashboard view of the site
+  - Each chart should describe a different aspect of the dataset
+
 
 The following **optional** features are implemented:
 
-- [x ] Multiple filters can be applied simultaneously
-- [ x] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site’s customized dashboard contains more content that explains what is interesting about the data 
+  - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
+- [ ] The site allows users to toggle between different data visualizations
+  - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
 
+  
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
@@ -40,7 +38,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./Project 5 - Data Dashboard.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -50,7 +48,8 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-The challenge was setting up the filter and map functions. It took me some time to understand how they work and how the dependencies array affects them.
+
+The challegene was the BrowserRoute. It took me few hours to figure out how it works and what does.
 
 ## License
 
