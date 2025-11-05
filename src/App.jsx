@@ -1,7 +1,8 @@
 import { useState, useEffect, useMemo } from 'react'
+// A Link Component is from the react-router-dom that can enable client-side navigation between routes
 import { Link } from 'react-router-dom'
 import { BarChart, Bar, PieChart, Pie, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer, Cell,
-} from 'recharts'
+} from 'recharts' 
 import './App.css'
 
 function App() {
@@ -132,7 +133,7 @@ function App() {
                       <YAxis />
                       {/*This Tooltip that shows disney data details of hover */}
                       <Tooltip />
-                      {/*The Lengend that displyed color labels */}
+                      {/*The Legend that displyed color labels */}
                       <Legend />
                       {/*The Bar Display disney character count for each disney film */}
                       <Bar dataKey="count" fill="	#1ab28a" />

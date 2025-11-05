@@ -2,7 +2,7 @@
 
 Submitted by: **Jerry Rogers Jr.**
 
-This web app: **is second version of data dashboard for Disney characters that uses the Disney API. It allows users to search for Disney characters in films.  Adding features with Bar Chart and Pie Chart while users can see the results of disney films.**
+This web app: **is the second version of the data dashboard for Disney characters that uses the Disney API. It allows users to search for Disney characters in films.  Adding features with Bar and Pie Charts so users can see the results for Disney films.**
 
 Time spent: **8** hours spent in total
 
@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./Project 6 - Data Dashboard part 2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -49,7 +49,7 @@ GIF created with ...
 
 ## Notes
 
-The challegene was the BrowserRoute. It took me few hours to figure out how it works and what does.
+The challenge was the BrowserRoute and Link Component. It took me a few hours to figure out how it works and what it does.
 
 ## License
 
