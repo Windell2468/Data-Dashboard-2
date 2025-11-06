@@ -90,6 +90,12 @@ function App() {
     <div className="app">
       <div className="main">
         <h1>Disney Characters Data Dashboard 2</h1> 
+         <p>
+        This dashboard shows data from the Disney API, 
+        highlighting the number of classic Disney films, 
+        the Disney characters who appear in them, and their popularity. 
+        You can explore patterns across the chart to see which Disney characters are featured.
+      </p>
 
         {isLoading ? (
           <p>Loading characters...</p> //It shows a loading message while it fetches a disney character
